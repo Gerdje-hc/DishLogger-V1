@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21B88AFD1FA10D3700374B6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B88AFC1FA10D3700374B6A /* AppDelegate.swift */; };
+		21B88AFF1FA10D3700374B6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B88AFE1FA10D3700374B6A /* ViewController.swift */; };
+		21B88B021FA10D3700374B6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21B88B001FA10D3700374B6A /* Main.storyboard */; };
+		21B88B051FA10D3700374B6A /* DishLogger_V1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 21B88B031FA10D3700374B6A /* DishLogger_V1.xcdatamodeld */; };
+		21B88B071FA10D3700374B6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21B88B061FA10D3700374B6A /* Assets.xcassets */; };
+		21B88B0A1FA10D3700374B6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21B88B081FA10D3700374B6A /* LaunchScreen.storyboard */; };
+		21B88B151FA10D3700374B6A /* DishLogger_V1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B88B141FA10D3700374B6A /* DishLogger_V1Tests.swift */; };
+		21B88B201FA10D3700374B6A /* DishLogger_V1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B88B1F1FA10D3700374B6A /* DishLogger_V1UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21B88B111FA10D3700374B6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21B88AF11FA10D3600374B6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21B88AF81FA10D3700374B6A;
+			remoteInfo = "DishLogger-V1";
+		};
+		21B88B1C1FA10D3700374B6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21B88AF11FA10D3600374B6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21B88AF81FA10D3700374B6A;
+			remoteInfo = "DishLogger-V1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21B88AF91FA10D3700374B6A /* DishLogger-V1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DishLogger-V1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21B88AFC1FA10D3700374B6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21B88AFE1FA10D3700374B6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		21B88B011FA10D3700374B6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21B88B041FA10D3700374B6A /* DishLogger_V1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DishLogger_V1.xcdatamodel; sourceTree = "<group>"; };
+		21B88B061FA10D3700374B6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21B88B091FA10D3700374B6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21B88B0B1FA10D3700374B6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21B88B101FA10D3700374B6A /* DishLogger-V1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DishLogger-V1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21B88B141FA10D3700374B6A /* DishLogger_V1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishLogger_V1Tests.swift; sourceTree = "<group>"; };
+		21B88B161FA10D3700374B6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21B88B1B1FA10D3700374B6A /* DishLogger-V1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DishLogger-V1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21B88B1F1FA10D3700374B6A /* DishLogger_V1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishLogger_V1UITests.swift; sourceTree = "<group>"; };
+		21B88B211FA10D3700374B6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21B88AF61FA10D3700374B6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21B88B0D1FA10D3700374B6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21B88B181FA10D3700374B6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21B88AF01FA10D3600374B6A = {
+			isa = PBXGroup;
+			children = (
+				21B88AFB1FA10D3700374B6A /* DishLogger-V1 */,
+				21B88B131FA10D3700374B6A /* DishLogger-V1Tests */,
+				21B88B1E1FA10D3700374B6A /* DishLogger-V1UITests */,
+				21B88AFA1FA10D3700374B6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21B88AFA1FA10D3700374B6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21B88AF91FA10D3700374B6A /* DishLogger-V1.app */,
+				21B88B101FA10D3700374B6A /* DishLogger-V1Tests.xctest */,
+				21B88B1B1FA10D3700374B6A /* DishLogger-V1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21B88AFB1FA10D3700374B6A /* DishLogger-V1 */ = {
+			isa = PBXGroup;
+			children = (
+				21B88AFC1FA10D3700374B6A /* AppDelegate.swift */,
+				21B88AFE1FA10D3700374B6A /* ViewController.swift */,
+				21B88B001FA10D3700374B6A /* Main.storyboard */,
+				21B88B061FA10D3700374B6A /* Assets.xcassets */,
+				21B88B081FA10D3700374B6A /* LaunchScreen.storyboard */,
+				21B88B0B1FA10D3700374B6A /* Info.plist */,
+				21B88B031FA10D3700374B6A /* DishLogger_V1.xcdatamodeld */,
+			);
+			path = "DishLogger-V1";
+			sourceTree = "<group>";
+		};
+		21B88B131FA10D3700374B6A /* DishLogger-V1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				21B88B141FA10D3700374B6A /* DishLogger_V1Tests.swift */,
+				21B88B161FA10D3700374B6A /* Info.plist */,
+			);
+			path = "DishLogger-V1Tests";
+			sourceTree = "<group>";
+		};
+		21B88B1E1FA10D3700374B6A /* DishLogger-V1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				21B88B1F1FA10D3700374B6A /* DishLogger_V1UITests.swift */,
+				21B88B211FA10D3700374B6A /* Info.plist */,
+			);
+			path = "DishLogger-V1UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21B88AF81FA10D3700374B6A /* DishLogger-V1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21B88B241FA10D3700374B6A /* Build configuration list for PBXNativeTarget "DishLogger-V1" */;
+			buildPhases = (
+				21B88AF51FA10D3700374B6A /* Sources */,
+				21B88AF61FA10D3700374B6A /* Frameworks */,
+				21B88AF71FA10D3700374B6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DishLogger-V1";
+			productName = "DishLogger-V1";
+			productReference = 21B88AF91FA10D3700374B6A /* DishLogger-V1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21B88B0F1FA10D3700374B6A /* DishLogger-V1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21B88B271FA10D3700374B6A /* Build configuration list for PBXNativeTarget "DishLogger-V1Tests" */;
+			buildPhases = (
+				21B88B0C1FA10D3700374B6A /* Sources */,
+				21B88B0D1FA10D3700374B6A /* Frameworks */,
+				21B88B0E1FA10D3700374B6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21B88B121FA10D3700374B6A /* PBXTargetDependency */,
+			);
+			name = "DishLogger-V1Tests";
+			productName = "DishLogger-V1Tests";
+			productReference = 21B88B101FA10D3700374B6A /* DishLogger-V1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21B88B1A1FA10D3700374B6A /* DishLogger-V1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21B88B2A1FA10D3700374B6A /* Build configuration list for PBXNativeTarget "DishLogger-V1UITests" */;
+			buildPhases = (
+				21B88B171FA10D3700374B6A /* Sources */,
+				21B88B181FA10D3700374B6A /* Frameworks */,
+				21B88B191FA10D3700374B6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21B88B1D1FA10D3700374B6A /* PBXTargetDependency */,
+			);
+			name = "DishLogger-V1UITests";
+			productName = "DishLogger-V1UITests";
+			productReference = 21B88B1B1FA10D3700374B6A /* DishLogger-V1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21B88AF11FA10D3600374B6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Gerd Hung-chu";
+				TargetAttributes = {
+					21B88AF81FA10D3700374B6A = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					21B88B0F1FA10D3700374B6A = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 21B88AF81FA10D3700374B6A;
+					};
+					21B88B1A1FA10D3700374B6A = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 21B88AF81FA10D3700374B6A;
+					};
+				};
+			};
+			buildConfigurationList = 21B88AF41FA10D3600374B6A /* Build configuration list for PBXProject "DishLogger-V1" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21B88AF01FA10D3600374B6A;
+			productRefGroup = 21B88AFA1FA10D3700374B6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21B88AF81FA10D3700374B6A /* DishLogger-V1 */,
+				21B88B0F1FA10D3700374B6A /* DishLogger-V1Tests */,
+				21B88B1A1FA10D3700374B6A /* DishLogger-V1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21B88AF71FA10D3700374B6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21B88B0A1FA10D3700374B6A /* LaunchScreen.storyboard in Resources */,
+				21B88B071FA10D3700374B6A /* Assets.xcassets in Resources */,
+				21B88B021FA10D3700374B6A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21B88B0E1FA10D3700374B6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21B88B191FA10D3700374B6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21B88AF51FA10D3700374B6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21B88AFF1FA10D3700374B6A /* ViewController.swift in Sources */,
+				21B88B051FA10D3700374B6A /* DishLogger_V1.xcdatamodeld in Sources */,
+				21B88AFD1FA10D3700374B6A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21B88B0C1FA10D3700374B6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21B88B151FA10D3700374B6A /* DishLogger_V1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21B88B171FA10D3700374B6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21B88B201FA10D3700374B6A /* DishLogger_V1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21B88B121FA10D3700374B6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21B88AF81FA10D3700374B6A /* DishLogger-V1 */;
+			targetProxy = 21B88B111FA10D3700374B6A /* PBXContainerItemProxy */;
+		};
+		21B88B1D1FA10D3700374B6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21B88AF81FA10D3700374B6A /* DishLogger-V1 */;
+			targetProxy = 21B88B1C1FA10D3700374B6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21B88B001FA10D3700374B6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21B88B011FA10D3700374B6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21B88B081FA10D3700374B6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21B88B091FA10D3700374B6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21B88B221FA10D3700374B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		21B88B231FA10D3700374B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21B88B251FA10D3700374B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JSJ9VWJA4N;
+				INFOPLIST_FILE = "DishLogger-V1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gerd.DishLogger-V1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21B88B261FA10D3700374B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JSJ9VWJA4N;
+				INFOPLIST_FILE = "DishLogger-V1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gerd.DishLogger-V1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		21B88B281FA10D3700374B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JSJ9VWJA4N;
+				INFOPLIST_FILE = "DishLogger-V1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gerd.DishLogger-V1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DishLogger-V1.app/DishLogger-V1";
+			};
+			name = Debug;
+		};
+		21B88B291FA10D3700374B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JSJ9VWJA4N;
+				INFOPLIST_FILE = "DishLogger-V1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gerd.DishLogger-V1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DishLogger-V1.app/DishLogger-V1";
+			};
+			name = Release;
+		};
+		21B88B2B1FA10D3700374B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JSJ9VWJA4N;
+				INFOPLIST_FILE = "DishLogger-V1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gerd.DishLogger-V1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DishLogger-V1";
+			};
+			name = Debug;
+		};
+		21B88B2C1FA10D3700374B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JSJ9VWJA4N;
+				INFOPLIST_FILE = "DishLogger-V1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gerd.DishLogger-V1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DishLogger-V1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21B88AF41FA10D3600374B6A /* Build configuration list for PBXProject "DishLogger-V1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21B88B221FA10D3700374B6A /* Debug */,
+				21B88B231FA10D3700374B6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21B88B241FA10D3700374B6A /* Build configuration list for PBXNativeTarget "DishLogger-V1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21B88B251FA10D3700374B6A /* Debug */,
+				21B88B261FA10D3700374B6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21B88B271FA10D3700374B6A /* Build configuration list for PBXNativeTarget "DishLogger-V1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21B88B281FA10D3700374B6A /* Debug */,
+				21B88B291FA10D3700374B6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21B88B2A1FA10D3700374B6A /* Build configuration list for PBXNativeTarget "DishLogger-V1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21B88B2B1FA10D3700374B6A /* Debug */,
+				21B88B2C1FA10D3700374B6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		21B88B031FA10D3700374B6A /* DishLogger_V1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				21B88B041FA10D3700374B6A /* DishLogger_V1.xcdatamodel */,
+			);
+			currentVersion = 21B88B041FA10D3700374B6A /* DishLogger_V1.xcdatamodel */;
+			path = DishLogger_V1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 21B88AF11FA10D3600374B6A /* Project object */;
+}
