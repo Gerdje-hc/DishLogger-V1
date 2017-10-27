@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  DishLogger-V1
 //
-//  Created by Gerd Hung-chu on 25/10/17.
+//  Created by Gerd Hung-chu on 25/10/17 - at home
 //  Copyright © 2017 Gerd Hung-chu. All rights reserved.
 //
 
