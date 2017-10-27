@@ -15,6 +15,8 @@
 		21B88B0A1FA10D3700374B6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21B88B081FA10D3700374B6A /* LaunchScreen.storyboard */; };
 		21B88B151FA10D3700374B6A /* DishLogger_V1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B88B141FA10D3700374B6A /* DishLogger_V1Tests.swift */; };
 		21B88B201FA10D3700374B6A /* DishLogger_V1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B88B1F1FA10D3700374B6A /* DishLogger_V1UITests.swift */; };
+		2F1D25081FA35FEF00F2E370 /* DishesListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D25071FA35FEF00F2E370 /* DishesListTableViewController.swift */; };
+		2F1D250A1FA3602B00F2E370 /* AddDishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D25091FA3602B00F2E370 /* AddDishViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		21B88B1B1FA10D3700374B6A /* DishLogger-V1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DishLogger-V1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21B88B1F1FA10D3700374B6A /* DishLogger_V1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishLogger_V1UITests.swift; sourceTree = "<group>"; };
 		21B88B211FA10D3700374B6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F1D25071FA35FEF00F2E370 /* DishesListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesListTableViewController.swift; sourceTree = "<group>"; };
+		2F1D25091FA3602B00F2E370 /* AddDishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDishViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		21B88AFB1FA10D3700374B6A /* DishLogger-V1 */ = {
 			isa = PBXGroup;
 			children = (
+				2F1D25071FA35FEF00F2E370 /* DishesListTableViewController.swift */,
+				2F1D25091FA3602B00F2E370 /* AddDishViewController.swift */,
 				21B88AFC1FA10D3700374B6A /* AppDelegate.swift */,
 				21B88AFE1FA10D3700374B6A /* ViewController.swift */,
 				21B88B001FA10D3700374B6A /* Main.storyboard */,
@@ -263,8 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				21B88AFF1FA10D3700374B6A /* ViewController.swift in Sources */,
+				2F1D25081FA35FEF00F2E370 /* DishesListTableViewController.swift in Sources */,
 				21B88B051FA10D3700374B6A /* DishLogger_V1.xcdatamodeld in Sources */,
 				21B88AFD1FA10D3700374B6A /* AppDelegate.swift in Sources */,
+				2F1D250A1FA3602B00F2E370 /* AddDishViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,4 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13240" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Category" representedClassName="Category" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="relationToDishes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Dishes" inverseName="relationToCategory" inverseEntity="Dishes" syncable="YES"/>
+    </entity>
+    <entity name="Dishes" representedClassName="Dishes" syncable="YES" codeGenerationType="class">
+        <attribute name="dish_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dish_image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dish_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dish_rating" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="dish_recepy" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="location_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="location_place" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="relationToCategory" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Category" inverseName="relationToDishes" inverseEntity="Category" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Dishes" positionX="-63" positionY="-18" width="128" height="165"/>
+        <element name="Category" positionX="-54" positionY="54" width="128" height="75"/>
+    </elements>
 </model>
