@@ -8,18 +8,27 @@
 
 import UIKit
 
-class AddDishViewController: UIViewController {
+class AddDishViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
+    @IBOutlet weak var dishImage: UIImageView!
+     var newImage = UIImage()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+       dishImage.image = newImage
 
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func saveDish(_ sender: Any) {
+    }
+
+    
     
 
     /*
